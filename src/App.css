@@ -1,38 +1,65 @@
 .App {
   text-align: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+  background-color: rgb(214, 47, 75);
+  min-height: 80vh;
+  margin: 30px;
+  border-radius: 15px;
+ 
+ 
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: rgb(60, 83, 212);
+  text-shadow: 1px 1px 2px #136377
+}
+.temp {
+  font-size: 30px;
+  font-weight: bold;
+  
+}
+img .todayimg{
+  float: left;
 }
 
 .App-link {
-  color: #61dafb;
+  color: palevioletred;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+.App {
+  text-align: center;
 }
+h1 {
+  font-weight: bold;
+  padding-top: 40px;
+}
+input[type="search"] {border-radius: 3px;
+  border-width: 1px;
+  border-radius: 6px;
+  border-style: none;
+  text-align: center;
+  box-shadow: 0px 8px 15px rgba( 0.1);
+  align-items: center;
+font-size: 25px;
+color:palevioletred;}
+
+input[type="submit"]{
+  border-radius: 30px;
+  margin: 20px;
+  font-size: 20px;
+  border-style: none;
+  
+}
+
+ul {
+  list-style-type: none;
+}
+
+#search{
+  font-size: 20px;
+  margin: 30px;}
